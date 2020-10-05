@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(26, 24, 25);
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.game-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container h1 {
+  font-size: 32px;
+}
+
+#game-canvas {
+  border: 2px solid red;
+}
