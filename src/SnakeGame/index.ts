@@ -146,7 +146,6 @@ export class SnakeGame {
           this.increaseSnakeLength();
           this.updateScore();
           this.clearCanvas();
-          this.drawFruit();
         }
       });
       this.drawSnake();
@@ -197,7 +196,6 @@ export class SnakeGame {
             this.increaseSnakeLength();
             this.updateScore();
             this.clearCanvas();
-            this.drawFruit();
           }
         });
         this.drawSnake();
@@ -244,7 +242,6 @@ export class SnakeGame {
             this.increaseSnakeLength();
             this.updateScore();
             this.clearCanvas();
-            this.drawFruit();
           }
         });
         this.drawSnake();
@@ -291,7 +288,6 @@ export class SnakeGame {
             this.increaseSnakeLength();
             this.updateScore();
             this.clearCanvas();
-            this.drawFruit();
           }
         });
         this.drawSnake();
@@ -337,7 +333,6 @@ export class SnakeGame {
             this.increaseSnakeLength();
             this.updateScore();
             this.clearCanvas();
-            this.drawFruit();
           }
         });
         this.drawSnake();
